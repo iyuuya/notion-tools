@@ -1,7 +1,12 @@
-import { Hello } from '@/components/Hello'
+import { URLConverter } from '@/components/URLConverter'
 
 const HomePage = () => {
-  return <Hello />
+  return (
+    <div>
+      <h1>iyuuya&apos;s Notion tools</h1>
+      <URLConverter />
+    </div>
+  )
 }
 
 export default HomePage
